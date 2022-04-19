@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Game</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/FightingGameLogo.png" />
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h2 id="root"></h2> -->
+    <div class="container">
+        <div class="health">
+            <!-- player health -->
+            <div class="br_health_player">
+                <div class="health_player"></div>
+                <div id="percent_player" class="percent_health_player"></div>
+            </div>
+            <!-- timer -->
+            <div class="timer">
+                <p id="timer"></p>
+            </div>
+            <!-- enemy health -->
+            <div class="br_health_enemy">
+                <div class="health_enemy"></div>
+                <div id="percent_enemy" class="percent_health_enemy"></div>
+            </div>
+        </div>
+        <div id="display_tie" class="tie"></div>
+        <canvas></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
