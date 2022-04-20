@@ -6,7 +6,12 @@
 *,
 html {
     box-sizing: border-box;
+    margin: 0;
     font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    display: flex;
 }
 
 .health {
@@ -113,4 +118,45 @@ html {
     font-size: 35px;
     font-weight: 600;
     display: none;
+}
+
+
+/* note */
+
+.note {
+    margin: 20px;
+    flex: 1;
+}
+
+.move {
+    display: flex;
+    margin: 20px 0;
+}
+
+.move_fighter {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.red_fighter {
+    color: red;
+    margin: 30px 0;
+}
+
+.blue_fighter {
+    color: blue;
+    margin-top: 80px;
+}
+
+.attack {
+    display: flex;
+}
+
+.btn {
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+.btn-up {
+    margin-left: 25px;
 }
